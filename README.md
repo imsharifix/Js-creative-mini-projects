@@ -42,7 +42,13 @@
 ✅ یک **پنل مدیریت (CMS)** ساده و سبک که با استفاده از JavaScript ساخته شده است.  
 این پنل شامل امکاناتی مانند افزودن آیتم، حذف آیتم، فیلتر کردن، ذخیره‌سازی اطلاعات و تعامل پویا با UI می‌باشد.
 
-📷 تصویر: `./screenshots/panel-cms.png`
+📷 تصویر: 
+
+![screencapture-file-D-2025-07-06-16_27_22](https://github.com/user-attachments/assets/cdd04b84-b5d0-4c9c-85d5-70c01436971b)
+![screencapture-file-D-2025-07-06-16_26_55](https://github.com/user-attachments/assets/73b04720-b5dc-4b28-9be7-ccd1487e4474)
+![screencapture-file-D-2025-07-06-16_26_43](https://github.com/user-attachments/assets/d09e96a1-1e99-4cfb-a2c0-980afdd5db15)
+![screencapture-file-D-2025-07-06-16_26_00](https://github.com/user-attachments/assets/4f3935fa-4b0a-4ec7-94e8-80d2b07c1bf3)
+![screencapture-file-D-2025-07-06-16_27_50](https://github.com/user-attachments/assets/ec901658-3d02-4309-be41-f927b033ffc6)
 
 ---
 
