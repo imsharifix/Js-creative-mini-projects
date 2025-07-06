@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;     /* وسط‌چینی افقی */
+    align-items: center;         /* وسط‌چینی عمودی */
+    height: 100vh;               /* کل ارتفاع صفحه */
+    margin: 0;
+    background-color: #b8dfe03f;      /* اگه بخوای بک‌گراندی باشه */
+}
+
+.night {
+    background-image: url(images/Img_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35rem;
+    width: 65rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.surface {
+    background-image: url('images/Img_02.png');
+    background-repeat: repeat-x;
+    background-size: auto 100%; /* یا 100% 100% اگه تست کنی بهتره */
+    background-position-x: 0;
+    position: absolute;
+    width: 100%;
+    height: 13rem;
+    top: 65%;
+    animation: surfaceMoving 2s linear infinite;
+    animation-play-state: paused;
+}
+
+.surface-animation{
+    animation: surfaceMoving 2s linear infinite;
+}
+
+@keyframes surfaceMoving {
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position-x: -238%;
+    }
+}
+
+
+
+
+.car {
+    position: absolute;
+    top: 68%;
+    left: 18%;
+}
+
+
+.animated-car {
+    animation: slide-in 0.7s infinite alternate linear; /* ارجاع به انیمیشن */
+}
+/* انیمیشن باید جدا نوشته بشه */
+@keyframes slide-in {
+    from {
+        transform: translateY(0%);
+    }
+
+    to {
+        transform: translateY(10%);
+    }
+}

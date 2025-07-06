@@ -1,0 +1,63 @@
+.content {
+    position: relative;
+    width: 23rem;
+    height: 29rem;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 3rem;
+    background-color: #ffff00a5; /* فقط برای دیدن محیط کار */
+}
+
+.spongeBob {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 3rem;
+    transform: translate(-50%, -50%);
+}
+
+.righteye {
+    position: absolute;
+    top: 41%;
+    left: 56%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.lefteye {
+    position: absolute;
+    top: 41%;
+    left: 37%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.lefteye,
+.righteye {
+    transition: top 0.3s ease, left 0.3s ease;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 12rem;
+    height: 3rem;
+    position: absolute;
+    top: 76%;
+    left: 25%;
+    font-weight: bold;
+}
+
+.form input,
+.form button {
+    padding: 3px;
+    margin: 3px;
+}
+
+.loginBtn {
+    background-color: #4343f3;
+    color: white;
+}
