@@ -3,7 +3,7 @@ const inputTagElm = document.querySelector('input');
 const tagCountSpanElm = document.querySelector('span');
 const removeAllBtn = document.querySelector('button');
 
-let tags = ['officialSharifix', 'ArabianGulf', 'saudi arabia'];
+let tags = ['officialSharifix'];
 const maxTagCount = 10;
 
 // به‌روز کردن شمارنده و فوکوس روی input
